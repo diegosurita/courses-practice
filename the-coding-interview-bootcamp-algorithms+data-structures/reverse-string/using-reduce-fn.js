@@ -3,6 +3,7 @@ module.exports = (str) => {
         throw new Error('Param has to be an string');
     }
 
+    // split the string into a array of characters and use reduce function to create the reversed string
     return str
         .split('')
             .reduce(
